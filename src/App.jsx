@@ -73,7 +73,6 @@ function App() {
 
         <section style={{
           background:"white",
-          padding:"20px",
           borderRadius:"15px"
         }}>
 
