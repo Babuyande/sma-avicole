@@ -11,15 +11,23 @@ function App() {
       minHeight:"100vh"
     }}>
 
-      <header style={{
-        background:"linear-gradient(to right, green, red)",
-        color:"white",
-        padding:"20px",
-        textAlign:"center"
-      }}>
-        <h1 style={{fontSize:"40px"}}>🐔 SMA AVICOLE</h1>
-        <p>Qualité • Croissance • Confiance</p>
-      </header>
+     <header style={{
+  background:"linear-gradient(to right, green, red)",
+  color:"white",
+  padding:"20px",
+  textAlign:"center"
+}}>
+
+  <img 
+    src="/sma-avicole/logo.png"
+    alt="Logo SMA Avicole"
+    style={{ width:"180px", marginBottom:"5px" }}
+  />
+
+  <h1 style={{fontSize:"40px"}}></h1>
+  <p>Qualité • Croissance • Confiance</p>
+
+</header>
 
       <main style={{padding:"20px"}}>
 
@@ -42,7 +50,7 @@ function App() {
               borderRadius:"10px",
               fontSize:"18px"
             }}>
-              🥚 Œufs - 2500 FCFA
+              🥚 Tablette Œufs
             </button>
           </a>
 
@@ -56,7 +64,7 @@ function App() {
               borderRadius:"10px",
               fontSize:"18px"
             }}>
-              🍗 Poulets - 2500 FCFA
+              🍗 Poulets
             </button>
           </a>
 
@@ -68,13 +76,7 @@ function App() {
           padding:"20px",
           borderRadius:"15px"
         }}>
-          <h2>Espace Admin</h2>
 
-          <p>Stock Œufs : {stockOeufs}</p>
-          <button onClick={() => setStockOeufs(stockOeufs + 10)}>+10 Œufs</button>
-
-          <p style={{marginTop:"15px"}}>Stock Poulets : {stockPoulets}</p>
-          <button onClick={() => setStockPoulets(stockPoulets + 5)}>+5 Poulets</button>
         </section>
 
       </main>
