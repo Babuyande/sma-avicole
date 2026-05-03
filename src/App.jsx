@@ -40,7 +40,7 @@ function App() {
         }}>
           <h2>Commander Facilement</h2>
 
-          <a href="https://wa.me/221773776179?text=Bonjour je veux commander des oeufs">
+          <a href="https://wa.me/221772799687?text=Bonjour je veux commander des oeufs">
             <button style={{
               background:"red",
               color:"white",
@@ -72,8 +72,15 @@ function App() {
         </section>
 
         <section style={{
-          background:"white",
-          borderRadius:"15px"
+            background:"white",
+  padding:"30px",
+  borderRadius:"15px",
+  textAlign:"center",
+  marginBottom:"20px",
+  maxWidth:"1200px",
+  margin:"1200px auto",
+  width:"90%"
+  
         }}>
 
         </section>
