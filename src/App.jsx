@@ -40,21 +40,7 @@ function App() {
         }}>
           <h2>Commander Facilement</h2>
 
-          <a href="https://wa.me/221772799687?text=Bonjour je veux commander des oeufs">
-            <button style={{
-              background:"red",
-              color:"white",
-              padding:"15px",
-              margin:"10px",
-              border:"none",
-              borderRadius:"10px",
-              fontSize:"18px"
-            }}>
-              🥚 Tablette Œufs
-            </button>
-          </a>
-
-          <a href="https://wa.me/221773776179?text=Bonjour je veux commander des poulets">
+          <a href="https://wa.me/772799687?text=Bonjour je veux commander">
             <button style={{
               background:"green",
               color:"white",
@@ -64,7 +50,7 @@ function App() {
               borderRadius:"10px",
               fontSize:"18px"
             }}>
-              🍗 Poulets
+               commandez
             </button>
           </a>
 
